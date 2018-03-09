@@ -1,0 +1,138 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+
+//Extra large: ≥1200px
++media-breakpoint-down(xl)
+
+//Large: ≥992px
++media-breakpoint-down(lg)
+	.my-header
+		text-align: center
+	.my-footer
+		li
+			font-size: 12px
+		.button
+			font-size: 14px
+		.services
+			font-size: 12px
+		.right
+			font-size: 12px
+
+	.contacts
+		h2
+			margin-top: 250px
+//Medium: ≥768px
++media-breakpoint-down(md)
+	.my-header
+		.menu
+			li
+				line-height: 1
+				font-size: 20px
+		.soc
+			li
+				padding-top: 10px
+				font-size: 12px
+	.my-footer
+		text-align: center
+		li
+			font-size: 16px
+			margin: 20px
+			line-height: 1
+		.button
+			font-size: 16px
+		.services
+			display: none
+		.right
+			font-size: 12px
+			padding-top: 20px
+	.button
+		padding: 5px 20px
+	
+
+//Small: ≥576px
++media-breakpoint-down(sm)
+	#legend
+	  margin-right: 70px
+	  margin-bottom: 350px
+	  h3
+	  	font-size: 14px
+
+	.my-header
+		.menu 
+			text-align: center
+			li
+				font-size: 25px
+				display: block
+				margin: 20px 2px
+
+		.tel
+			li
+				margin: 30px
+			.phone
+				display: none
+			.button
+			  padding: 10px 30px
+			  font-size: 20px
+		.logo
+			margin-top: 10px
+			display: block
+			text-align: center
+			img
+				width: 150px
+				height: auto	
+
+	.contacts
+		h2
+			margin-top: 570px
+	.button
+		padding: 5px 20px
+//Extra small: >0
++media-breakpoint-down(xs)
+	.contacts
+		h2
+			margin-top: 570px
+	#legend
+	  margin-right: 76px
+	  margin-bottom: 270px
+	  padding: 20px
+	  h3
+	  	font-size: 13px
+	.my-header
+		.soc
+			display: none
+
+	.my-footer
+		text-align: center
+		li
+			font-size: 13px
+			margin: 20px
+			line-height: 1
+			text-align: left
+		.button
+			display: none
+		.services
+			display: none
+		.right
+			font-size: 12px
+			padding: 20px
+
+/*==========  Mobile First  ==========*/
+
+//Extra small: <576px
++media-breakpoint-up(xs)
+
+//Small: ≤576px
++media-breakpoint-up(sm)
+
+//Medium: ≤768px
++media-breakpoint-up(md)
+
+//Large: ≤992px
++media-breakpoint-up(lg)
+
+
+//Extra large: ≤1200px
++media-breakpoint-up(xl)

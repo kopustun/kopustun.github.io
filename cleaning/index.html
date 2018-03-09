@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<base href="/">
+
+	<title>OptimizedHTML 4</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+	<div class="my-header">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-xl-5 order-xl-first  col-md-12 order-md-last">
+						<nav class="menu">							
+							<li><a href="#" class="button">Home</a></li>
+							<li><a href="#" class="button">Service</a></li>
+							<li><a href="reviews.html" class="button">Review</a></li>
+							<li><a href="#" class="button">Contacts</a></li>
+							<li><a href="#" class="button">Company police</a></li>
+						</nav>
+				</div>					
+				<div class="col-xl-2 col-md-4 order-first">
+  				<a href="#" class="logo"><img src="img/logo.png" alt="Студія веб дизайну"></a>
+				</div>
+
+				<div class="col-xl-3 col-md-4 d-md-block d-sm-none">
+					<nav class="soc">							
+						<li><i class="fa fa-map-marker"></i> 58th Streer, Clearwater, 33760, FL</li>
+						<li><i class="fa fa-envelope"></i>Cleaning911@qualityservice.com</li>
+					</nav>
+				</div>
+				
+				<div class="col-xl-2 col-md-4">
+					<nav class="tel">							
+						<li><div class="phone"><i class="fa fa-phone"></i>(727) 877-4757</div></li>
+						<li><a href="#" class="button">Write to us</a></li>
+					</nav>
+				</div>
+				
+			</div>
+
+		</div>
+
+	</div>
+
+	<section class="contacts">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2><span>Con</span>tacts</h2>
+				</div>
+			</div>
+		</div>
+
+		<div id="map"></div>
+		<div id="legend">
+			<h3><i class="fa fa-map-marker"></i><span> Adress:</span> 58th Streer, Clearwater, 33760, FL</h3>
+			<h3><i class="fa fa-phone"></i><span> Phone Number:</span> (727) 877-4757</h3>
+			<h3><i class="fa fa-envelope"></i><span>Email:</span> Cleaning911@qualityservice.com</h3>
+		</div>
+	</section>
+	
+	<div id="footer" style="background-image: url(img/footer.png);">
+		<div class="my-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-4 d-md-block d-sm-none">
+
+						<a href="#" class="button">Service</a>
+						<nav class="services">							
+							<li><a href="#">House Cleaning</a></li>
+							<li><a href="#">House Cleaning</a></li>
+							<li><a href="#">House Cleaning House</a></li>
+							<li><a href="#">House Cleaning Cleaning</a></li>
+						</nav>
+
+					</div>
+
+					<div class="col-lg-2 d-lg-block d-sm-none">
+					<a href="#" class="button"></a>
+						<nav class="services">							
+							<li><a href="#">House Cleaning</a></li>
+							<li><a href="#">House Cleaning</a></li>
+							<li><a href="#">House Cleaning House</a></li>
+							<li><a href="#">House Cleaning Cleaning</a></li>
+						</nav>
+					</div>
+
+					<div class="col-lg-2 col-md-4 d-md-block d-sm-none">
+						<a href="#" class="button">Review</a>
+					</div>
+
+					<div class="col-lg-2 col-md-4 d-md-block d-sm-none">
+						<a href="#" class="button">Company police</a>
+					</div>
+
+					<div class="col-lg-4 col-sm-12">
+						<nav clas="footer-contacts">
+							<li><i class="fa fa-map-marker"></i><span> Adress:</span> 58th Streer, Clearwater, 33760, FL</li>
+							<li><i class="fa fa-phone"></i><span> Phone Number:</span> (727) 877-4757</li>
+							<li><i class="fa fa-envelope"></i><span>Email:</span> Cleaning911@qualityservice.com</li>
+						</nav>
+					</div>
+
+					<div class="col-12">
+						<div class="right">All rights reserved © 2018 Cleaners 911</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/scripts.min.js"></script>
+	<script>
+		function initMap() {
+		  var uluru = {lat: 27.906880, lng: -82.712803};
+		  var map = new google.maps.Map(document.getElementById('map'), {
+		    zoom: 17,
+		    center: uluru
+		  });
+		  var marker = new google.maps.Marker({
+		    position: uluru,
+		    map: map
+		  });
+
+		  var legend = document.getElementById('legend');
+
+	    map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
+
+		}
+	</script>
+
+	<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbRxViNce_gsBwGc4OKJfTfrJYIvT0Hac&callback=initMap">
+  </script>
+
+
+</body>
+</html>
