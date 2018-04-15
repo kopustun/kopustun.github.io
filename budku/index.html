@@ -45,7 +45,7 @@
 						</nav>
 				</div>
 				<div class="col-xl-2 col-md-3">
-						<a href="" class="button">Contact today</a>
+						<a href="#form-callback" class="buttonform">Contact today</a>
 				</div>
 				
 				<div class="col-md-3 col">
@@ -126,8 +126,14 @@
 					<form class="callback email">
 						<div class="row">
 							<div class="col-lg-7 col-6">
-								<input type="hidden" name="admin_email" value="kopustun@gmail.com">
-				
+								<div class="success"><span>Thank you!</span></div>
+
+								<!-- Hidden Required Fields -->
+								<input type="hidden" name="site_name" value="Cleaning911">
+								<input type="hidden" name="admin_email" value="сleaning911@qualityservice.com">
+								<input type="hidden" name="form_subject" value="subject Write to us Cleaning911">
+								<!-- END Hidden Required Fields -->
+			
 								<input type="hidden" name="Сторінка" value="">
 
 								<input type="text" name="Name"	placeholder="E-mail" required>
@@ -148,6 +154,38 @@
 
 	</footer>
 	
+	<div class="hidden">
+
+		<form class="callback form-callback mfp-hide" id="form-callback">
+			<div class="row">
+				<div class="success"><span>Thank you!</span></div>
+
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="site_name" value="Cleaning911">
+					<input type="hidden" name="admin_email" value="сleaning911@qualityservice.com">
+					<input type="hidden" name="form_subject" value="subject Write to us Cleaning911">
+					<!-- END Hidden Required Fields -->
+
+					<input type="hidden" name="Сторінка" value="">
+					<div class="formhead">
+						<h3>Enter your contact information</h3>
+					</div>
+					<div class="formdata">
+						<p>Name*</p>
+						<input id="name" type="text" name="Name"	placeholder="" required>
+						<p>Phone*</p>
+						<input id="name" type="text" name="Phone"	placeholder="Example: 780-340-7552" required>
+						<p>Email</p>
+						<input type="text" name="Email"	placeholder="example@gmail.com">
+					</div>
+						<textarea class="message" rows="6" type="text" name="Message" placeholder="Enter you message"></textarea>
+					<button class="button">Checkout</button>
+
+			</div>
+		</form>
+	
+	</div>
+
 	<script src="js/scripts.min.js"></script>
 
 </body>
