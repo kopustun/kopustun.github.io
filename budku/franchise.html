@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<base href="/">
 
-	<title>PhotoBooth</title>
+	<title>Franchise | PhotoBooth</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +27,7 @@
 </head>
 
 <body>
-	<section class="wave section-overlay" style="background-image: url(img/aboutus.jpg);">
+	<section class="wave wavefr section-overlay">
 	<svg id="curve" data-name="curve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800">
 		<path class="cls-1" d="M337,0S439,47,451,197s82,292,312,292,166,311,637,311H0V0Z"/></svg>
 		<div class="container">
@@ -50,37 +50,46 @@
 				
 				<div class="col-md-3 col">
 					<div class="about-us">
-						<h2>About us</h2>
-						<p>Zoom foto booth has emerged as the largest and most distinguished provider of photo booth rentals in the entire nation simply because we provide our clients the best customer service. Contact with us: 780-340-7552</p>
+						<h2>How to become a partner</h2>
+						<p>Zoom foto booth has emerged as the largest and most distinguished provider of photo booth rentals in the entire nation simply because we provide our clients the best customer service. Contact with us: <span>780-340-7552, or fill in the.</span></p>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xl-6 col-md-8 col-12">
-						<form class="callback">
-							<div class="row">
-								<div class="col-sm-3 d-sm-block d-none">
-									<p>Your phone:</p>
-								</div>
-								<div class="col-sm-5 col-7">
-									<input type="hidden" name="admin_email" value="kopustun@gmail.com">
-					
-									<input type="hidden" name="Сторінка" value="">
-	
-									<input type="text" name="Name"	placeholder="+7 (099)- 111- 11- 11" required>
-								</div>
-								<div class="col-sm-4 col-5">
-									<a href="" class="buttongrad">Call to me</a>
-								</div>
-							</div>
-						</form>
-					</div>
-			</div>
-				
-			<img src="img/girl2.png" alt="">
-
+			
+			<div class="franchiseimage">
+				<img src="img/franchise1.png" alt="">
+			</div>	
 		</div>
 
+	</section>
+	<section class="long">
+		<form class="callback form-callback" id="form-partner">
+			<div class="row">
+				<div class="success"><span>Thank you!</span></div>
+
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="site_name" value="Cleaning911">
+					<input type="hidden" name="admin_email" value="сleaning911@qualityservice.com">
+					<input type="hidden" name="form_subject" value="subject Write to us Cleaning911">
+					<!-- END Hidden Required Fields -->
+
+					<input type="hidden" name="Сторінка" value="">
+					<div class="formhead">
+						<h3>Enter your contact information</h3>
+					</div>
+					<div class="formdata">
+						<p>Name*</p>
+						<input id="name" type="text" name="Name"	placeholder="" required>
+						<p>Phone*</p>
+						<input id="name" type="text" name="Phone"	placeholder="Example: 780-340-7552" required>
+						<p>Email</p>
+						<input type="text" name="Email"	placeholder="example@gmail.com">
+					</div>
+						
+					<button class="button">Checkout</button>
+
+			</div>
+		</form>
 	</section>
 
 	<footer id="footer">
