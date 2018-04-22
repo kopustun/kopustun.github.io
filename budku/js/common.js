@@ -1,6 +1,14 @@
 $(function() {
 
 	// Custom JS
+	
+	$('.booth-packages').owlCarousel({
+		items: 1,
+		smartSpeed: 700,
+		nav: true,
+		touchDrag: true,
+		navText: ['<a><i class="fa fa-long-arrow-left"></i>Previous</a>', '<a>Next<i class="fa fa-long-arrow-right"></i></a>']
+	});
 
 	$('.buttonform').magnificPopup({
 		type: 'inline',
@@ -40,4 +48,10 @@ $(function() {
 		});
 		return false;
 	});
+
+		//Resize Window
+	function onResize() {
+			$('.services').equalHeights();
+		}onResize();
+		window.onresize = function() {onResize()};
 });
