@@ -1,13 +1,44 @@
 $(function() {
 
 	// Custom JS
-	
+
 	$('.booth-packages').owlCarousel({
 		items: 1,
 		smartSpeed: 700,
 		nav: true,
 		touchDrag: true,
 		navText: ['<a><i class="fa fa-long-arrow-left"></i>Previous</a>', '<a>Next<i class="fa fa-long-arrow-right"></i></a>']
+	});
+
+	$('.services-home').owlCarousel({
+		center: true,
+		margin: 0,
+		items: 3,
+		loop: true,
+		smartSpeed: 700,
+		nav: true,
+		touchDrag: true,
+		navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        576:{
+            items:3
+        }
+    }
+	});
+
+	$('.gallery-home').owlCarousel({
+		items: 1,
+		loop: true,
+		smartSpeed: 700,
+		nav: false,
+		dots: true,
+		dotsData: true,
+		touchDrag: true,
+		navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
 	});
 
 	$('.buttonform').magnificPopup({
@@ -55,3 +86,10 @@ $(function() {
 		}onResize();
 		window.onresize = function() {onResize()};
 });
+
+
+
+
+
+
+
