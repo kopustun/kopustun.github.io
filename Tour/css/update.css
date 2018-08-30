@@ -489,7 +489,7 @@ button.button {
   padding: 19px 15px 0 0;
   margin-top: 20px;
   margin-right: 17px;
-  border-top: 1px solid #9995;
+  border-top: 1px solid #e8e8e8;
   clear: both; }
 
 .response-author__box {
@@ -609,6 +609,8 @@ button.button {
     clear: both; }
   .response-more__load .blue2Button {
     margin: 0 auto; }
+  .response-more__load .moreReview {
+    margin: 0;}
   .response-more__load.p1 {
     padding: 10px 0 0; }
 
@@ -636,7 +638,7 @@ button.button {
   clear: both;
   -moz-box-shadow: 0 4px 15px 0 rgba(128, 152, 187, 0.51);
   -webkit-box-shadow: 0 4px 15px 0 rgba(128, 152, 187, 0.51);
-  box-shadow: 0 4px 15px 0 rgba(128, 152, 187, 0.51);
+  box-shadow: 0 4px 15px 0 rgba(128, 152, 187, 0.15);
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px; }
@@ -1879,7 +1881,7 @@ button.button {
 .place-item {
   -moz-box-shadow: 0 4px 15px 0 rgba(128, 152, 187, 0.51);
   -webkit-box-shadow: 0 4px 15px 0 rgba(128, 152, 187, 0.51);
-  box-shadow: 0 4px 15px 0 rgba(128, 152, 187, 0.51);
+  box-shadow: 0 4px 15px 0 rgba(128, 152, 187, 0.15);
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px; }
