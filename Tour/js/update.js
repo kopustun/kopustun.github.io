@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-
+    $(window).scroll(function(){$(this).scrollTop()>$(this).height()?$(".top").addClass("active"):$(".top").removeClass("active")}),$(".top").click(function(){$("html, body").stop().animate({scrollTop:0},"slow","swing")})
     $('.m-carousel-single').owlCarousel({
         items: 1,
         dots: true,
@@ -151,5 +151,4 @@ $(document).ready(function() {
         $(this).prev('.accordion-text').slideUp();
         $(this).hide();
     });
-
 });
