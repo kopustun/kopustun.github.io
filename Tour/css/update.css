@@ -1863,6 +1863,8 @@ button.button {
 
 .m-custom.recommend-carousel.owl-carousel .owl-item {
   height: auto; }
+.m-custom.recommend-carousel.owl-carousel .owl-stage-outer {
+  border-radius: 5px 5px 0 0; }
 
 .rect-blue.response-mode p, .rect-blue.response-mode .percent {
   vertical-align: middle; }
@@ -2019,6 +2021,7 @@ button.button {
     margin: 5% 0;
   }
 }
+
 
 /*--------------------------- Content White Wrapper END */
 /*-------------------------------------------  */
