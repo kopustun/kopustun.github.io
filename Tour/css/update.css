@@ -673,6 +673,7 @@ button.button {
     padding-right: 15px;
     text-align: right; }
   .response-content__wrap.p1 {
+    margin-top: 12px !important; 
     padding: 25px 25px 28px 40px; }
   .response-content__wrap.p2 {
     padding: 35px 45px 50px;
@@ -2018,6 +2019,7 @@ button.button {
     margin: 5% 0;
   }
 }
+
 /*--------------------------- Content White Wrapper END */
 /*-------------------------------------------  */
 
