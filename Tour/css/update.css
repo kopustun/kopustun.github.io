@@ -1806,7 +1806,9 @@ button.button {
 .section-bg {
   background-color: #f7f8fc; }
   .section-bg.p1 {
-    padding-top: 30px; }
+    padding-top: 50px;
+    padding-bottom: 50px; 
+  }
 
 .box-spacing {
   height: 30px;
