@@ -6684,7 +6684,7 @@ button.close
 }
 
 .top:hover{
-	box-shadow: 0 4px 15px 0 rgba(128, 152, 187, 0.55);
+	box-shadow: 0 4px 15px 0 rgba(1, 182, 187, 0.55);
 	background-color:#01B2C4;
 	opacity: 1;}
 .top.active{right:75px}
