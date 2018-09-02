@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<link rel="stylesheet" href="css/main.css">
+	<!-- <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" href="js/slick/slick.css">
+	<link rel="stylesheet" href="js/slick/slick-theme.css">
+	<link rel="stylesheet" href="css/update.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+          <span class="sr-only">Открыть навигацию</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#header">
+          <img src="img/logo.png" class="img-responsive hidden-sm hidden-xs" alt="#">
+          <img src="img/logoMobile.png" class="img-responsive logoMobile visible-sm visible-xs" alt="#">
+        </a>
+      </div>
+      <div class="navbar-body">
+        <div class="collapse navbar-collapse" id="responsive-menu">
+          <ul id="top-menu" class="nav navbar-nav">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Где отдохнуть</a></li>
+            <li><a href="#">Полезное</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">Отзывы</a></li>
+          </ul>
+        </div>
+        <div class="pageName">Новости</div>
+        <a href="#" class="btn btn-h-normal btn-transparent btn-auth">Личный кабинет</a>
+        <a href="#" class="navbarSearch"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+  </nav>
+	<main class="mainContent">
+	  <section class="breadcrumbs">
+	    <div class="container">
+        <div class="breadcrumbsContent">
+	        <a href="#" class="active">Главная</a> <img src="img/ico-arrow-right.png" alt="#"> <a href="#" class="active">Где отдохнуть</a> <img src="img/ico-arrow-right.png" alt="#"> <a href="#" class="active">Гостиницы</a> <img src="img/ico-arrow-right.png" alt="#"> <a href="#">Hotel San-Remo</a>
+	      </div>
+	      <form class="breadcrumbsSearch hide">
+	        <input type="text" class="classicInput" placeholder="Поиск">
+	        <button type="submit"><i class="fas fa-search"></i></button>
+	      </form>
+	    </div>
+	  </section>
+	  <section class="news response-category-mode">
+	    <div class="container">
+
+	      <div class="row">
+	        <div class="col-lg-3 col-md-4 col-sm-12">
+
+	<h1 class="main-title h1 p1 visible-xs">Где отдохнуть</h1>
+
+	<!-- Search Hotels Filter -->
+	<ul class="write-filter__box">
+		<li class="item title">Поиск</li>
+		<li class="item">
+			<div class="filter-item filter-item--location white extensive">
+				<label for="place">МЕСТО</label>
+				<select name="place" id="">
+					<option value="">Пицунда</option>
+					<option value="">Цандрипш</option>
+					<option value="">Холодная речка</option>
+					<option value="">Гребешок</option>
+					<option value="">Гагра</option>
+					<option value="">Алахадзе</option>
+					<option value="">Пицунда</option>
+					<option value="">Лдзаа</option>
+					<option value="">Гудаута</option>
+					<option value="">Новый Афон</option>
+					<option value="">Сухум</option>
+					<option value="">Очамчира</option>
+				</select>
+			</div>
+		</li>
+		<li class="item">
+			<div class="filter-item filter-item--location white extensive">
+				<label for="place">ЗАЕЗД</label>
+				<select name="place" id="">
+					<option value="">12 сентября</option>
+					<option value="">Цандрипш</option>
+					<option value="">Холодная речка</option>
+					<option value="">Гребешок</option>
+					<option value="">Гагра</option>
+					<option value="">Алахадзе</option>
+					<option value="">Пицунда</option>
+					<option value="">Лдзаа</option>
+					<option value="">Гудаута</option>
+					<option value="">Новый Афон</option>
+					<option value="">Сухум</option>
+					<option value="">Очамчира</option>
+				</select>
+			</div>
+		</li>
+		<li class="item">
+			<div class="filter-item filter-item--location white extensive">
+				<label for="place">ВЫЕЗД</label>
+				<select name="place" id="">
+					<option value="">23 сентября</option>
+					<option value="">Цандрипш</option>
+					<option value="">Холодная речка</option>
+					<option value="">Гребешок</option>
+					<option value="">Гагра</option>
+					<option value="">Алахадзе</option>
+					<option value="">Пицунда</option>
+					<option value="">Лдзаа</option>
+					<option value="">Гудаута</option>
+					<option value="">Новый Афон</option>
+					<option value="">Сухум</option>
+					<option value="">Очамчира</option>
+				</select>
+			</div>
+		</li>
+		<li class="item">
+			<div class="filter-item filter-item--location white extensive">
+				<label for="place">КОЛ-ВО НОМЕРОВ И ГОСТЕЙ</label>
+				<select name="place" id="">
+					<option value="">1 номер, 2 гостя</option>
+					<option value="">Цандрипш</option>
+					<option value="">Холодная речка</option>
+					<option value="">Гребешок</option>
+					<option value="">Гагра</option>
+					<option value="">Алахадзе</option>
+					<option value="">Пицунда</option>
+					<option value="">Лдзаа</option>
+					<option value="">Гудаута</option>
+					<option value="">Новый Афон</option>
+					<option value="">Сухум</option>
+					<option value="">Очамчира</option>
+				</select>
+			</div>
+		</li>
+		<li class="item">
+			<a href="#" class="button button-block">Подобрать</a>
+		</li>
+	</ul>
+	<!-- Search Hotels Filter END -->
+    
+	<div class="content-white__box box-indent p7">
+		<div class="hotel-filter__name">Фильтры</div>
+	</div>
+	<div class="hotel-filter__title with-price">Стоимость, руб.</div>
+	<div class="content-white__box p7">
+		<ul class="hotel-filter__price">
+			<li><input type="text" placeholder="От 500"></li>
+			<li><input type="text" placeholder="До 10000"></li>
+		</ul>
+	</div>
+	<div class="hotel-filter__title with-rating">Рейтинг отеля</div>
+	<div class="content-white__box p7">
+		<div class="response-filter__rating-wrap filter-mode">
+			<div class="place-item--rate response-filter__rating">
+				<div class="rate">
+					<div class="star star-full"></div>
+					<div class="star"></div>
+					<div class="star"></div>
+					<div class="star"></div>
+					<div class="star"></div>
+				</div>
+			</div>
+			<span class="response-filter__divider">-</span>
+			<div class="place-item--rate response-filter__rating">
+				<div class="rate">
+					<div class="star star-full"></div>
+					<div class="star star-full"></div>
+					<div class="star star-full"></div>
+					<div class="star"></div>
+					<div class="star"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hotel-filter__title with-food">Питание</div>
+	<div class="content-white__box p7">
+		<div class="button-toggle">
+			<input type="checkbox" id="hf-1">
+			<label for="hf-1">Завтрак</label>
+		</div>
+		<div class="button-toggle">
+			<input type="checkbox" id="hf-2" checked="">
+			<label for="hf-2">Завтрак и ужин</label>
+		</div>
+		<div class="button-toggle">
+			<input type="checkbox" id="hf-3">
+			<label for="hf-3">Завтрак, обед и ужин</label>
+		</div>
+		<div class="button-toggle">
+			<input type="checkbox" id="hf-4">
+			<label for="hf-4">Всё включено</label>
+		</div>
+		<div class="button-toggle">
+			<input type="checkbox" id="hf-5">
+			<label for="hf-5">С собственной кухней</label>
+		</div>
+	</div>
+	<div class="hotel-filter__title with-services">Услуги</div>
+	<div class="content-white__box p7">
+		<div class="button-toggle">
+			<input type="checkbox" id="hf-6">
+			<label for="hf-6">WI-FI бесплатно</label>
+		</div>
+		<div class="button-toggle">
+			<input type="checkbox" id="hf-7" checked="">
+			<label for="hf-7">Кондиционер</label>
+		</div>
+		<div class="button-toggle">
+			<input type="checkbox" id="hf-8">
+			<label for="hf-8">Парковка</label>
+		</div>
+		<div class="button-toggle">
+			<input type="checkbox" id="hf-9">
+			<label for="hf-9">Трансфер в аэропорт</label>
+		</div>
+	</div>
+	<div class="hotel-filter__title with-feature">Особенности</div>
+	<div class="content-white__box p7">
+		<div class="button-toggle">
+			<input type="checkbox" id="hf-10">
+			<label for="hf-10">С видом на море</label>
+		</div>
+		<div class="button-toggle">
+			<input type="checkbox" id="hf-11" checked="">
+			<label for="hf-11">Проверено АbhTravel</label>
+		</div>
+		<div class="button-toggle">
+			<input type="checkbox" id="hf-12">
+			<label for="hf-12">Отзывы с фото или видео</label>
+		</div>
+	</div>
+	<div class="hotel-filter__title with-distance">Расстояние до моря, м</div>
+	<div class="content-white__box p7">
+		<ul class="hotel-filter__price">
+			<li><input type="text" placeholder="От 500"></li>
+			<li><input type="text" placeholder="До 10000"></li>
+		</ul>
+	</div>
+	<div class="hotel-filter__title with-type">Тип размещения</div>
+	<div class="content-white__box p7">
+		<div class="row">
+			<div class="col-sm-6 col-md-6">
+				<div class="button-toggle">
+					<input type="checkbox" id="hf-13">
+					<label for="hf-13">Кемпинг</label>
+				</div>
+				<div class="button-toggle">
+					<input type="checkbox" id="hf-14" checked="">
+					<label for="hf-14">Хостел</label>
+				</div>
+				<div class="button-toggle">
+					<input type="checkbox" id="hf-15">
+					<label for="hf-15">Студия</label>
+				</div>
+				<div class="button-toggle">
+					<input type="checkbox" id="hf-16">
+					<label for="hf-16">Отель</label>
+				</div>
+				<div class="button-toggle">
+					<input type="checkbox" id="hf-17">
+					<label for="hf-17">Комната</label>
+				</div>
+				<div class="button-toggle">
+					<input type="checkbox" id="hf-18">
+					<label for="hf-18">Гостевой</label>
+				</div>
+				<div class="hotel-filter__indent visible-xs"></div>
+			</div>
+			<div class="col-sm-6 col-md-6">
+				<div class="button-toggle">
+					<input type="checkbox" id="hf-19">
+					<label for="hf-19">Отель</label>
+				</div>
+				<div class="button-toggle">
+					<input type="checkbox" id="hf-20">
+					<label for="hf-20">Дом</label>
+				</div>
+				<div class="button-toggle">
+					<input type="checkbox" id="hf-21">
+					<label for="hf-21">Гостиница</label>
+				</div>
+				<div class="button-toggle">
+					<input type="checkbox" id="hf-22">
+					<label for="hf-22">Коттедж</label>
+				</div>
+				<div class="button-toggle">
+					<input type="checkbox" id="hf-23">
+					<label for="hf-23">Квартира</label>
+				</div>
+				<div class="button-toggle">
+					<input type="checkbox" id="hf-24">
+					<label for="hf-24">Другое</label>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hotel-filter__full"><a href="#" class="button button-block">Показать другие фильтры<i class="fa fa-angle-down"></i></a></div>
+	
+	        </div>
+	        <div class="col-lg-9 col-md-8 col-sm-12">
+
+	<div class="box-spacing visible-xs visible-sm"></div>
+	
+	<h1 class="main-title h1">Пицунда: найдено 1 752 варианта проживания включая 10 акций и спецпредложений!</h1>
+
+	<ul class="hotel-search__select">
+		<li><a href="#" class="button active">AbhTravel рекомендует<i class="fa fa-angle-down"></i></a></li>
+		<li><a href="#" class="button">Сначала дешевые<i class="fa fa-angle-down"></i></a></li>
+		<li><a href="#" class="button">Сначала дорогие<i class="fa fa-angle-down"></i></a></li>
+		<li><a href="#" class="button">Лучшие по отзывам<i class="fa fa-angle-down"></i></a></li>
+	</ul>
+
+	<!-- Hotel Search Item -->
+	<div class="content-white__box box-indent">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="owl-carousel m-carousel-single carousel-custom__design">
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="hotel-search__item">
+					<div class="main-title__small">
+						<span class="type">ПАНСИОНАТ</span>
+						<div class="rate">
+							<div class="star star-full"></div>
+							<div class="star star-half"></div>
+							<div class="star"></div>
+							<div class="star"></div>
+							<div class="star"></div>
+						</div>
+					</div>
+					<h3>«Самшитовая роща»</h3>
+					<span class="location"><i class="fa fa-map-marker-alt"></i>Гагрский район, г. Пицунда, улица Гицба, 1</span>
+					<span class="caption">Удобства и услуги</span>
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-6">
+							<ul class="response-comfort__box">
+								<li class="with-wifi">Wi-Fi - бесплатно -  в номере и лобби</li>
+								<li class="with-c1">Кондиционер в номере</li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-6">
+							<ul class="response-comfort__box">
+								<li class="with-c3">Сейф в номере - бесплатно</li>
+								<li class="with-c4">Размещение с животными</li>
+							</ul>
+						</div>
+					</div>
+					<p class="buy">
+						<span class="price-item__value">от<em>2000</em>р.</span>
+						<a href="#" class="button">Бронировать</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Hotel Search Item END -->
+
+	<!-- Hotel Search Item -->
+	<div class="content-white__box box-indent">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="owl-carousel m-carousel-single carousel-custom__design">
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="hotel-search__item">
+					<div class="main-title__small">
+						<span class="type">ПАНСИОНАТ</span>
+						<div class="rate">
+							<div class="star star-full"></div>
+							<div class="star star-half"></div>
+							<div class="star"></div>
+							<div class="star"></div>
+							<div class="star"></div>
+						</div>
+					</div>
+					<h3>«Самшитовая роща»</h3>
+					<span class="location"><i class="fa fa-map-marker-alt"></i>Гагрский район, г. Пицунда, улица Гицба, 1</span>
+					<span class="caption">Удобства и услуги</span>
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-6">
+							<ul class="response-comfort__box">
+								<li class="with-wifi">Wi-Fi - бесплатно -  в номере и лобби</li>
+								<li class="with-c1">Кондиционер в номере</li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-6">
+							<ul class="response-comfort__box">
+								<li class="with-c3">Сейф в номере - бесплатно</li>
+								<li class="with-c4">Размещение с животными</li>
+							</ul>
+						</div>
+					</div>
+					<p class="buy">
+						<span class="price-item__value">от<em>2000</em>р.</span>
+						<a href="#" class="button">Бронировать</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Hotel Search Item END -->
+
+	<!-- Hotel Search Item -->
+	<div class="content-white__box box-indent">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="owl-carousel m-carousel-single carousel-custom__design">
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="hotel-search__item">
+					<div class="main-title__small">
+						<span class="type">ПАНСИОНАТ</span>
+						<div class="rate">
+							<div class="star star-full"></div>
+							<div class="star star-half"></div>
+							<div class="star"></div>
+							<div class="star"></div>
+							<div class="star"></div>
+						</div>
+					</div>
+					<h3>«Самшитовая роща»</h3>
+					<span class="location"><i class="fa fa-map-marker-alt"></i>Гагрский район, г. Пицунда, улица Гицба, 1</span>
+					<span class="caption">Удобства и услуги</span>
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-6">
+							<ul class="response-comfort__box">
+								<li class="with-wifi">Wi-Fi - бесплатно -  в номере и лобби</li>
+								<li class="with-c1">Кондиционер в номере</li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-6">
+							<ul class="response-comfort__box">
+								<li class="with-c3">Сейф в номере - бесплатно</li>
+								<li class="with-c4">Размещение с животными</li>
+							</ul>
+						</div>
+					</div>
+					<p class="buy">
+						<span class="price-item__value">от<em>2000</em>р.</span>
+						<a href="#" class="button">Бронировать</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Hotel Search Item END -->
+
+	<!-- Hotel Search Item -->
+	<div class="content-white__box box-indent">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="owl-carousel m-carousel-single carousel-custom__design">
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="hotel-search__item">
+					<div class="main-title__small">
+						<span class="type">ПАНСИОНАТ</span>
+						<div class="rate">
+							<div class="star star-full"></div>
+							<div class="star star-half"></div>
+							<div class="star"></div>
+							<div class="star"></div>
+							<div class="star"></div>
+						</div>
+					</div>
+					<h3>«Самшитовая роща»</h3>
+					<span class="location"><i class="fa fa-map-marker-alt"></i>Гагрский район, г. Пицунда, улица Гицба, 1</span>
+					<span class="caption">Удобства и услуги</span>
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-6">
+							<ul class="response-comfort__box">
+								<li class="with-wifi">Wi-Fi - бесплатно -  в номере и лобби</li>
+								<li class="with-c1">Кондиционер в номере</li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-6">
+							<ul class="response-comfort__box">
+								<li class="with-c3">Сейф в номере - бесплатно</li>
+								<li class="with-c4">Размещение с животными</li>
+							</ul>
+						</div>
+					</div>
+					<p class="buy">
+						<span class="price-item__value">от<em>2000</em>р.</span>
+						<a href="#" class="button">Бронировать</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Hotel Search Item END -->
+
+	<!-- Hotel Search Item -->
+	<div class="content-white__box box-indent">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="owl-carousel m-carousel-single carousel-custom__design">
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+					<div class="slide"><a href="#"><img src="img/update/pic-hotel-search.jpg" alt=""></a></div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6">
+				<div class="hotel-search__item">
+					<div class="main-title__small">
+						<span class="type">ПАНСИОНАТ</span>
+						<div class="rate">
+							<div class="star star-full"></div>
+							<div class="star star-half"></div>
+							<div class="star"></div>
+							<div class="star"></div>
+							<div class="star"></div>
+						</div>
+					</div>
+					<h3>«Самшитовая роща»</h3>
+					<span class="location"><i class="fa fa-map-marker-alt"></i>Гагрский район, г. Пицунда, улица Гицба, 1</span>
+					<span class="caption">Удобства и услуги</span>
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-6">
+							<ul class="response-comfort__box">
+								<li class="with-wifi">Wi-Fi - бесплатно -  в номере и лобби</li>
+								<li class="with-c1">Кондиционер в номере</li>
+							</ul>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-6">
+							<ul class="response-comfort__box">
+								<li class="with-c3">Сейф в номере - бесплатно</li>
+								<li class="with-c4">Размещение с животными</li>
+							</ul>
+						</div>
+					</div>
+					<p class="buy">
+						<span class="price-item__value">от<em>2000</em>р.</span>
+						<a href="#" class="button">Бронировать</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Hotel Search Item END -->
+
+	<ul class="page-number__nav">
+		<li><a href="#" class="near"><i class="fa fa-angle-left"></i></a></li>
+		<li><a href="#" class="active">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">...</a></li>
+		<li><a href="#">6</a></li>
+		<li><a href="#" class="near"><i class="fa fa-angle-right"></i></a></li>
+	</ul>
+
+
+
+	        </div>
+	      </div>
+	    </div>
+	  </section>
+
+	<!-- Recommended Items -->
+	  <section class="recomendate section-bg p1">
+	    <div class="container">
+	      <h2 class="section-title">AbhTravel рекомендует</h2>
+	      <div class="row">
+	        <div class="col-md-3 col-sm-6">
+	          <div class="place-item">
+              <div class="place-item--img">
+                <img src="img/places/place-item-1.jpg" alt="">
+              </div>
+              <div class="place-item--content">
+                <div class="place-item--rate">
+                  <span>Пансионат</span>
+                  <div class="rate">
+                    <div class="star star-full"></div>
+                    <div class="star star-half"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                  </div>
+                </div>
+                <div class="place-item--title">
+                  <h3>«Самшитовая роща»</h3>
+                </div>
+                <div class="place-item--adress">
+                  <p>Гагрский район,</p>
+                  <p>г. Пицунда, улица Гицба 1</p>
+                </div>
+                <a href="" class="on-map">
+                  <span>На карте</span>
+                </a>
+                <div class="priceAndButton">
+                  <div class="place-item--price">
+                    <span>от </span>
+                    <div>2000</div>
+                    <span> р.</span>
+                  </div>
+                  <a href="" class="btn btn-h-small btn-orange">
+                    Бронировать
+                  </a>
+                </div>
+              </div>
+            </div>
+	        </div>
+	        <div class="col-md-3 col-sm-6">
+	          <div class="place-item">
+              <div class="place-item--img">
+                <img src="img/places/place-item-1.jpg" alt="">
+              </div>
+              <div class="place-item--content">
+                <div class="place-item--rate">
+                  <span>Пансионат</span>
+                  <div class="rate">
+                    <div class="star star-full"></div>
+                    <div class="star star-half"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                  </div>
+                </div>
+                <div class="place-item--title">
+                  <h3>«Самшитовая роща»</h3>
+                </div>
+                <div class="place-item--adress">
+                  <p>Гагрский район,</p>
+                  <p>г. Пицунда, улица Гицба 1</p>
+                </div>
+                <a href="" class="on-map">
+                  <span>На карте</span>
+                </a>
+                <div class="priceAndButton">
+                  <div class="place-item--price">
+                    <span>от </span>
+                    <div>2000</div>
+                    <span> р.</span>
+                  </div>
+                  <a href="" class="btn btn-h-small btn-orange">
+                    Бронировать
+                  </a>
+                </div>
+              </div>
+            </div>
+	        </div>
+          <div class="col-md-3 col-sm-6">
+	          <div class="place-item">
+              <div class="place-item--img">
+                <img src="img/places/place-item-1.jpg" alt="">
+              </div>
+              <div class="place-item--content">
+                <div class="place-item--rate">
+                  <span>Пансионат</span>
+                  <div class="rate">
+                    <div class="star star-full"></div>
+                    <div class="star star-half"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                  </div>
+                </div>
+                <div class="place-item--title">
+                  <h3>«Самшитовая роща»</h3>
+                </div>
+                <div class="place-item--adress">
+                  <p>Гагрский район,</p>
+                  <p>г. Пицунда, улица Гицба 1</p>
+                </div>
+                <a href="" class="on-map">
+                  <span>На карте</span>
+                </a>
+                <div class="priceAndButton">
+                  <div class="place-item--price">
+                    <span>от </span>
+                    <div>2000</div>
+                    <span> р.</span>
+                  </div>
+                  <a href="" class="btn btn-h-small btn-orange">
+                    Бронировать
+                  </a>
+                </div>
+              </div>
+            </div>
+	        </div>
+          <div class="col-md-3 col-sm-6">
+	          <div class="place-item">
+              <div class="place-item--img">
+                <img src="img/places/place-item-1.jpg" alt="">
+              </div>
+              <div class="place-item--content">
+                <div class="place-item--rate">
+                  <span>Пансионат</span>
+                  <div class="rate">
+                    <div class="star star-full"></div>
+                    <div class="star star-half"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                  </div>
+                </div>
+                <div class="place-item--title">
+                  <h3>«Самшитовая роща»</h3>
+                </div>
+                <div class="place-item--adress">
+                  <p>Гагрский район,</p>
+                  <p>г. Пицунда, улица Гицба 1</p>
+                </div>
+                <a href="" class="on-map">
+                  <span>На карте</span>
+                </a>
+                <div class="priceAndButton">
+                  <div class="place-item--price">
+                    <span>от </span>
+                    <div>2000</div>
+                    <span> р.</span>
+                  </div>
+                  <a href="" class="btn btn-h-small btn-orange">
+                    Бронировать
+                  </a>
+                </div>
+              </div>
+            </div>
+	        </div>
+	      </div>
+	    </div>
+	  </section>
+	  <!-- Recommended Items END -->
+
+	</main>
+	<section class="section section-social">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-md-4">
+						<div class="social-links">
+							<h4>Мы в социальных сетях</h4>
+							<div class="social-links--items">
+								<a href="" class="social-links--item">
+									<img src="img/ico-facebook.png" alt="">
+								</a>
+								<a href="" class="social-links--item">
+									<img src="img/ico-odnoklasniki.png" alt="">
+								</a>
+								<a href="" class="social-links--item">
+									<img src="img/ico-twitter.png" alt="">
+								</a>
+								<a href="" class="social-links--item">
+									<img src="img/ico-skype.png" alt="">
+								</a>
+								<a href="" class="social-links--item">
+									<img src="img/ico-vk.png" alt="">
+								</a>
+								<a href="" class="social-links--item">
+									<img src="img/ico-youtube.png" alt="">
+								</a>
+								<a href="" class="social-links--item">
+									<img src="img/ico-instagram.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-8">
+						<form class="form social-form">
+							<h4>Подпишитесь и получайте лучшие предложения</h4>
+							<input type="text" class="input input-email" placeholder="Введите Ваш E-mail">
+							<input type="submit" class="btn btn-orange btn-h-normal" value="Подписаться">
+							<p class="form-p">
+								<input type="checkbox" id="checkbox-sub" class="input-checkbox input-checkbox__white">
+								<label for="checkbox-sub"></label>
+								Я даю согласие на обработку персональных данных и соглашаюсь с политикой конфиденциальности
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="row footer-row">
+					<div class="col-md-3 col-lg-2">
+						<div class="logo">
+							<a href="">
+								<img src="img/footer-logo.png" alt="">
+							</a>
+	
+						</div>
+					</div>
+					<div class="col-md-3 col-lg-2">
+						<ul class="drop-list drop-list--first">
+							<li>
+								<a href="">Подобрать жилье</a>
+								<ul class="sub-drop-list">
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="">Где отдохнуть</a>
+								<ul class="sub-drop-list">
+									<li><a href="">Апартаменты</a></li>
+									<li><a href="">Гостиницы</a></li>
+									<li><a href="">Квартиры</a></li>
+									<li><a href="">Отели</a></li>
+									<li><a href="">Частный сектор</a></li>
+									<li><a href="">Мини-гостиницы</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="">Акции</a>
+								<ul class="sub-drop-list">
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="">Рекомендации</a>
+								<ul class="sub-drop-list">
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-lg-2">
+						<ul class="drop-list drop-list--second">
+							<li>
+								<a href="">Экскурсии</a>
+								<ul class="sub-drop-list">
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="">Подборки</a>
+								<ul class="sub-drop-list">
+									<li><a href="">Апартаменты</a></li>
+									<li><a href="">Гостиницы</a></li>
+									<li><a href="">Квартиры</a></li>
+									<li><a href="">Отели</a></li>
+									<li><a href="">Частный сектор</a></li>
+									<li><a href="">Мини-гостиницы</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="">Новости</a>
+								<ul class="sub-drop-list">
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="">Полезное</a>
+								<ul class="sub-drop-list">
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<ul class="drop-list drop-list--third">
+							<li>
+								<a href="">Оплата</a>
+								<ul class="sub-drop-list">
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="">Контакты</a>
+								<ul class="sub-drop-list">
+									<li><a href="">Апартаменты</a></li>
+									<li><a href="">Гостиницы</a></li>
+									<li><a href="">Квартиры</a></li>
+									<li><a href="">Отели</a></li>
+									<li><a href="">Частный сектор</a></li>
+									<li><a href="">Мини-гостиницы</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="">Личный кабинет</a>
+								<ul class="sub-drop-list">
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+									<li><a href="">Подобрать жилье</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="">Отзывы</a>
+								<ul class="sub-drop-list">
+									<li><a href="">Фото</a></li>
+									<li><a href="">Видео</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-12 col-lg-3">
+						<div class="footer-btn--wrapper">
+							<a href="" class="btn btn-orange btn-h-normal">Разместить объект</a>
+							<a href="" class="btn btn-transparent btn-h-normal">Зарегистрироваться</a>
+							<a href="" class="btn btn-transparent btn-h-normal">Реклама и сотрудничество</a>
+							<a href="" class="btn-conf">Политика конфиденциальности и условия обработки данных</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="footer-copy">
+						<copy>2018 &copy; AbhTravel.ru</copy>
+					</div>
+				</div>
+			</div>
+	
+		</footer>
+	<script src="js/main.js"></script>		
+	<script src="js/slick/slick.min.js"></script>		
+	<script src="js/update.js"></script>		
+</body>
+</html>
