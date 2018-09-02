@@ -1,0 +1,136 @@
+/* Import */
+@import "variables";
+@import "mixin";
+@import "grid";
+@import "base";
+@import "response";
+@import "tour";
+@import "lk";
+@import "hotel";
+
+/*------------------------------------ Content */
+.section-bg {
+	background-color: $section-color;
+	&.p1 { padding-top: 30px; }
+}
+
+.box-spacing {
+	height: 30px;
+	@include clearfix;
+}
+
+.main-title {
+	padding: 0 0 10px;
+	margin: 0;
+	@include font (24,27,bold);
+	&.h1 { @include font (30,34,bold); }
+	&.reset { padding: 0; }
+	&.p1 { padding: 0 0 23px; }
+	&.p2 { padding: 53px 0 38px; }
+	&.p3 { padding: 0 0 17px; }
+	&.p4 { padding: 0 0 23px; }
+	@include media(sm-max) {
+		&.p1 { padding: 20px 0 23px; }
+		&.p2 { padding: 25px 0 20px; }
+	}
+}
+
+.main-title__small {
+	padding: 0 0 7px;
+	display: block;
+	color: $gray;
+	text-transform: uppercase;
+	@include font (13,15);
+}
+
+/* Custom Old Styles */
+.news {
+	&.response-mode { padding-bottom: 72px; }
+	&.response-category-mode { padding-bottom: 52px; }
+}
+
+.m-custom.recommend-carousel.owl-carousel .owl-item { height: auto; }
+
+.rect-blue {
+	&.response-mode {
+		p, .percent { vertical-align: middle; }
+	}
+}
+
+* {
+	&[class^="col-"] {
+		&.p1 {
+			@include media(hd) { padding-right: 50px; }
+		}
+	}
+}
+
+
+.rect-blue .btn-wrapper {
+	@include media(ms-max) { display: block; }
+}
+
+.place-item {
+	@include box-shadow (0 4px 15px 0 rgba(128,152,187,.51));
+	@include border-radius (5px);
+}
+
+.whiteForm-footer input + label::after { top: 3px; }
+
+/*Select*/
+.filter-item--location {
+	&.extensive { width: 100%; }
+	&.white {
+		.jq-selectbox__select-text { background-color: #fff; }
+	}
+}
+.jqselect { z-index: auto !important; }
+.jq-selectbox__dropdown { z-index: 10; }
+
+
+
+
+
+
+
+
+
+/*------------------------------- Content White Wrapper */
+
+.content-white__box {
+	background-color: #fff;
+	@include clearfix;
+	@include box-shadow (0 4px 10px 0 rgba(128,152,187,.31));
+	@include border-radius (10px);
+	&.p1 { padding: 35px 30px; }
+	&.p2 { padding: 30px 20px; }
+	&.p3 { padding: 30px 15px; }
+	&.p4 { padding: 30px 30px; }
+	&.p5 { padding: 25px 25px; }
+	&.p6 { padding: 35px 25px 12px 30px; }
+	&.p7 {
+		padding: 25px 30px;
+		border-radius: 0;
+	}
+	&.box-indent { margin-top: 30px; }
+	@include media(hd) {
+		&.p2 { padding: 43px 25px 43px 35px; }
+		&.p3 { padding: 30px 45px 37px 58px; }
+		&.p4 { padding: 55px 30px 55px 80px; }
+		&.p5 { padding: 30px 38px 25px 30px; }
+	}
+	@include media(xs) {
+		&.p1 { padding: 20px 15px; }
+	}
+}
+
+/*--------------------------- Content White Wrapper END */
+
+
+
+
+
+
+
+/*-------------------------------------------  */
+
