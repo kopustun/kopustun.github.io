@@ -170,7 +170,7 @@ body
 {
    font-family: Circe;
    font-weight: normal;
-   font-size: 11px;
+   font-size: 13px;
 }
 #wb_Text82 div
 {
@@ -284,7 +284,7 @@ body
 {
    font-family: Circe;
    font-weight: normal;
-   font-size: 11px;
+   font-size: 13px;
 }
 #wb_Text63 div
 {
@@ -389,7 +389,7 @@ body
 {
    font-family: Circe;
    font-weight: normal;
-   font-size: 11px;
+   font-size: 13px;
 }
 #wb_Text20 div
 {
@@ -484,7 +484,7 @@ body
 {
    font-family: Circe;
    font-weight: normal;
-   font-size: 11px;
+   font-size: 13px;
 }
 #wb_Text5 div
 {
@@ -2498,7 +2498,7 @@ body
 {
    font-family: "Circe Extra Bold";
    font-weight: normal;
-   font-size: 48px;
+   font-size: 46px;
 }
 #wb_Text22 div
 {
@@ -2608,7 +2608,7 @@ body
 #step3
 {
    background-color: transparent;
-   background-image: url(../images/3667.png);
+   background-image: url(../images/metr.png);
    background-repeat: no-repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -2900,7 +2900,7 @@ body
 {
    font-family: Circe;
    font-weight: normal;
-   font-size: 11px;
+   font-size: 13px;
 }
 #wb_Text48 div
 {
@@ -4124,7 +4124,7 @@ body
 {
    font-family: Circe;
    font-weight: normal;
-   font-size: 11px;
+   font-size: 13px;
 }
 #wb_Text71 div
 {
@@ -4676,7 +4676,7 @@ body
 #step7
 {
    background-color: transparent;
-   background-image: url(../images/3667.png);
+   background-image: url(../images/bf-form-goft.png);
    background-repeat: no-repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -5369,7 +5369,7 @@ body
 #ok
 {
    background-color: transparent;
-   background-image: url(../images/3667.png);
+   background-image: url(../images/bf-form-goft.png);
    background-repeat: no-repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -6664,10 +6664,10 @@ body
 #wb_Image88
 {
    position: absolute;
-   left: 26px;
-   top: 101px;
-   width: 223px;
-   height: 196px;
+   left: 20px;
+   top: 35px;
+   width: 323px;
+   height: 296px;
    z-index: 174;
 }
 #wb_uid101
@@ -7098,8 +7098,8 @@ body
 #wb_Text82
 {
    position: absolute;
-   left: 860px;
-   top: 358px;
+   left: 857px;
+   top: 350px;
    width: 236px;
    height: 64px;
    text-align: center;
@@ -7131,8 +7131,8 @@ body
 #wb_Text71
 {
    position: absolute;
-   left: 860px;
-   top: 358px;
+   left: 855px;
+   top: 338px;
    width: 236px;
    height: 64px;
    text-align: center;
@@ -7775,7 +7775,7 @@ body
 {
    position: absolute;
    left: 888px;
-   top: 359px;
+   top: 352px;
    width: 169px;
    height: 64px;
    text-align: center;
@@ -7911,7 +7911,7 @@ body
 {
    position: absolute;
    left: 889px;
-   top: 363px;
+   top: 345px;
    width: 169px;
    height: 48px;
    text-align: center;
@@ -8262,8 +8262,8 @@ body
 #wb_Text20
 {
    position: absolute;
-   left: 861px;
-   top: 362px;
+   left: 857px;
+   top: 338px;
    width: 236px;
    height: 64px;
    text-align: center;
@@ -8698,10 +8698,10 @@ body
 #wb_Image90
 {
    position: absolute;
-   left: 47px;
-   top: 94px;
-   width: 188px;
-   height: 211px;
+   left: 20px;
+   top: 140px;
+   width: 230px;
+   height: 135px;
    z-index: 169;
 }
 #wb_uid99
@@ -8871,7 +8871,7 @@ body
 {
    position: absolute;
    left: 129px;
-   top: 43px;
+   top: 55px;
    width: 912px;
    height: 71px;
    text-align: center;
@@ -9079,7 +9079,7 @@ body
 #wb_Text102
 {
    position: absolute;
-   left: 17px;
+   left: 10px;
    top: 0px;
    width: 248px;
    height: 55px;
@@ -9126,7 +9126,7 @@ body
 #wb_Text124
 {
    position: absolute;
-   left: 17px;
+   left: 10px;
    top: 0px;
    width: 248px;
    height: 55px;
@@ -9432,10 +9432,10 @@ body
 #wb_Image72
 {
    position: absolute;
-   left: 38px;
-   top: 101px;
-   width: 223px;
-   height: 196px;
+   left: 20px;
+   top: 35px;
+   width: 323px;
+   height: 296px;
    z-index: 217;
 }
 #Image70
@@ -9472,9 +9472,9 @@ body
 #wb_Image94
 {
    position: absolute;
-   left: 520px;
-   top: 260px;
-   width: 301px;
+   left: 590px;
+   top: 240px;
+   width: 215px;
    height: 440px;
    z-index: 212;
 }
@@ -9597,7 +9597,7 @@ body
 {
    position: absolute;
    left: 889px;
-   top: 367px;
+   top: 352px;
    width: 169px;
    height: 48px;
    text-align: center;
@@ -10026,10 +10026,10 @@ body
 #wb_Image75
 {
    position: absolute;
-   left: 47px;
-   top: 94px;
-   width: 188px;
-   height: 211px;
+   left: 20px;
+   top: 140px;
+   width: 230px;
+   height: 135px;
    z-index: 223;
 }
 #wb_uid132
@@ -15517,10 +15517,10 @@ body
 }
 #wb_Image94
 {
-   left: 165px;
+   left: 185px;
    top: 119px;
-   width: 155px;
-   height: 227px;
+   width: 115px;
+   height: 220px;
    margin: 0;
    padding: 0;
 }
