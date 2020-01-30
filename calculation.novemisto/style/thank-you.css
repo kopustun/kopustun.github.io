@@ -720,10 +720,10 @@ body
 #wb_Image1
 {
    position: absolute;
-   left: 700px;
-   top: 183px;
-   width: 114px;
-   height: 87px;
+   left: 670px;
+   top: 120px;
+   width: 180px;
+   height: 200px;
    z-index: 29;
 }
 #wb_Text3
@@ -1470,8 +1470,8 @@ body
 {
    left: 234px;
    top: 188px;
-   width: 86px;
-   height: 65px;
+   width: 180px;
+   height: 200px;
    visibility: visible;
    display: inline;
    margin: 0;
