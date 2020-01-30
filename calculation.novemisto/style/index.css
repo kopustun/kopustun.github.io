@@ -2387,9 +2387,9 @@ body
 {
    position: absolute;
    left: 552px;
-   top: 1px;
-   width: 98px;
-   height: 103px;
+   top: -30px;
+   width: 100px;
+   height: 150px;
    z-index: 45;
 }
 #wb_uid24
