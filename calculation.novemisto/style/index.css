@@ -1844,10 +1844,10 @@ body
 #wb_Image1
 {
    position: absolute;
-   left: 0px;
-   top: 497px;
-   width: 164px;
-   height: 103px;
+   left: -10px;
+   top: 510px;
+   width: 130px;
+   height: 90px;
    z-index: 23;
 }
 #wb_uid4
@@ -1979,10 +1979,10 @@ body
 #wb_Image3
 {
    position: absolute;
-   left: 150px;
-   top: 492px;
-   width: 129px;
-   height: 112px;
+   left: 90px;
+   top: 420px;
+   width: 250px;
+   height: 260px;
    z-index: 25;
 }
 #wb_uid6
